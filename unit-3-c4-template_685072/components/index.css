@@ -1,0 +1,43 @@
+#navbar {
+    height: 100px;
+    width: auto;
+    margin: auto;
+    background-color: rgb(233, 201, 161);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    padding: 0px 40px 0px 40px;
+    
+}
+a {
+    font-size: 26px;
+}
+input {
+    width: 85%;
+    height: 20px;
+    border-radius: 10px;
+    font-size: 12px;
+    padding: 6px;
+}
+#sidebar {
+    height: auto;
+    width: fit-content;
+    margin-top: -30px;
+    padding: 25px 40px 10px 20px;
+    background-color: rgb(233, 201, 161);
+    font-size: 16px;
+    
+
+}
+#sidebar>div{
+    color: black;
+    height: fit-content;
+    width: 100px;
+    background-color: rgb(6, 143, 143);
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 5px;
+    
+}
